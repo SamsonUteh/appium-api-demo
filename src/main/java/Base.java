@@ -11,8 +11,8 @@ public class Base {
     public void configureAppium() throws MalformedURLException {
 //        create capabliities
         UiAutomator2Options options = new UiAutomator2Options();
-        options.setDeviceName("");
-        options.setApp("");
+        options.setDeviceName("Pixel");
+        options.setApp(System.getProperty("user.dir")+"src/main/java/resources/ApiDemos.apk");
 
 
 //        create object for Android/iOS driver
